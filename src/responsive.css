@@ -1,0 +1,43 @@
+@media (max-width: 1160px) {
+    body {
+        background-size: contain;
+    }
+
+    main {
+        width: 100vw;
+        height: 100%;
+        padding-block: 30px;
+    }
+
+    .container {
+        width: 350px;
+    }
+
+    .container .text-quality {
+        gap: 20px;
+        flex-direction: column;
+    }
+
+    .container .text {
+        width: auto;
+        text-align: center;
+    }
+
+    .container .quality {
+        width: 350px;
+        height: auto;
+        gap: 10px;
+    }
+
+    .quality .stars {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .container .comments {
+        width: 350px;
+        height: auto;
+        gap: 10px;
+        flex-direction: column;
+    }
+}
